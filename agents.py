@@ -49,7 +49,7 @@ web_researcher_agent = Agent(
 
 doppelganger_agent = Agent(
     role="LinkedIn Post Creator",
-    goal="You will create a LinkedIn post comparing Llama 2 and Llama 3 following the writing style "
+    goal="You will create a LinkedIn post on latest cybersecurity trends following the writing style "
          "observed in the LinkedIn posts scraped by the LinkedIn Post Scraper.",
     backstory=dedent(
         """
