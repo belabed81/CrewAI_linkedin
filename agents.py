@@ -24,7 +24,7 @@ linkedin_scraper_agent = Agent(
     tools=[scrape_linkedin_posts_tool],
     backstory=dedent(
         """
-        You are an experienced programmer who excels at web scraping. 
+        You are an cyber security professional who excels at web scraping. 
         """
     ),
     verbose=True,
@@ -34,7 +34,7 @@ linkedin_scraper_agent = Agent(
 
 web_researcher_agent = Agent(
     role="Web Researcher",
-    goal="Your goal is to search for relevant content about the comparison between Llama 2 and Llama 3",
+    goal="Your goal is to search for relevant content about latest cybersecurity trends",
     tools=[scrape_website_tool, search_tool],
     backstory=dedent(
         """
