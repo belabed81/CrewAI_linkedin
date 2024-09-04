@@ -27,8 +27,8 @@ def scrape_linkedin_posts_fn() -> str:
     browser = webdriver.Chrome()
     browser.get("https://www.linkedin.com/login")
 
-    username_input = browser.find_element("id", "username")
-    password_input = browser.find_element("id", "password")
+    username_input = browser.find_element("id", "belabed@gmail.com")
+    password_input = browser.find_element("id", "Nb@Bas81")
     username_input.send_keys(linkedin_username)
     password_input.send_keys(linkedin_password)
     password_input.send_keys(Keys.RETURN)
